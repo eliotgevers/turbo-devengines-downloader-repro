@@ -1,5 +1,7 @@
 # Automatic local Turbo download rejects strict Bun metadata
 
+Upstream report: [vercel/turborepo#14358](https://github.com/vercel/turborepo/issues/14358).
+
 This workspace has no application dependencies. Keep it without node_modules to exercise the bootstrap path.
 
 Prerequisites: Bun 1.4.2, Node, npm/npx, and a separately installed global/native Turbo binary. npm 10.9.8, 11.19.0 and 12.2.0 all reproduced the failure. Do not install Turbo into this workspace before the failing check: a local install bypasses the downloader.
