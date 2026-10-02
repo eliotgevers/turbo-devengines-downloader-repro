@@ -1,0 +1,1 @@
+{"name": "repro", "private": true, "workspaces": ["apps/*"], "devDependencies": {"turbo": "2.11.5"}, "devEngines": {"packageManager": {"name": "bun", "version": "1.4.2"}}}
